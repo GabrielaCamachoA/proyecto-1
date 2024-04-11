@@ -8,14 +8,29 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 45vh;
     flex-direction: column;
+    height: 100vh;
     background-color: azure;
 }
-.text{
-    font-size: 30px;
-    margin-bottom: 1pc;
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
     color: purple;
+    margin-top: 1pc;
+    margin-bottom: 1pc;
+}
+#dateNumber, #dateText{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+form{
+    border: solid 8px purple;
+    border-radius: 15px;
+    padding: 18px;
+    padding-bottom: 434px;
 }
 input{
     padding: 9px 16px;
@@ -30,3 +45,27 @@ input{
     border-radius: 5px;
     font-size: 17px;
 }
+/* Extra small */
+@media screen and (min-width: 576px) {
+ 
+      
+}
+/* Small */
+@media screen and (min-width: 576px) {
+  
+}
+
+/* Medium */
+@media screen and (min-width: 768px) {
+    
+}
+@media screen and (min-width: 992px) {
+  
+    
+}
+/* large */
+@media screen and (min-width: 1200px) 
+{
+    
+}
+    
