@@ -17,20 +17,28 @@ body{
     align-items: center;
     justify-content: space-between;
     font-size: 20px;
+    text-transform: capitalize;
     font-weight: bold;
     color: purple;
     margin-top: 1pc;
+}
+#clock{
+    display: flex;
+    justify-content: right;
+    font-size: 20px;
+    font-weight: bold;
     margin-bottom: 1pc;
+    color: purple;
+    
 }
 #dateNumber, #dateText{
-    font-size: 30px;
+    font-size: 35px;
     text-transform: capitalize;
 }
 form{
     border: solid 8px purple;
     border-radius: 15px;
-    padding: 18px;
-    padding-bottom: 434px;
+    padding: 18px 34px 416px;
 }
 input{
     padding: 9px 16px;
